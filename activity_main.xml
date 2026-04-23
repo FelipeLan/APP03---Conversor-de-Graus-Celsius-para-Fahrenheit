@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/laranja"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversor de Graus Celsius para Fahrenheit"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCelsius"
+        android:hint="Digite a temperatura em graus Celsius"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConverter"
+        android:text="Converter para Graus Fahrenheit"
+        android:textAlignment="center"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResultado"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+</LinearLayout>
